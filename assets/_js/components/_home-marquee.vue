@@ -20,9 +20,6 @@
     mounted() {
       this.menuLinkHover();
       this.getGify();
-      window.addEventListener('resize', () => {
-        this.menuLinkHover();
-      });
     },
     methods: {
       menuLinkHover() {
