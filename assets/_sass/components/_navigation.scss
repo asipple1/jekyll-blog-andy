@@ -1,0 +1,91 @@
+.navigation::-webkit-scrollbar {
+  display: none;
+}
+.navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $color-dark-black;
+  overflow-x: scroll;
+  &__container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      background-color: $color-gray;
+      width: 100%;
+      min-width: calc(250px * 5);
+      height: 4px;
+      z-index: 2;
+    }
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 20vw;
+    min-width: 250px;
+    font-size: 20px;
+    background-color: $color-dark-black;
+    color: $color-gray;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    &--one {
+      &.navigation__item--active ~ .navigation__line  {
+        left: 0;
+      }
+      &:hover ~ .navigation__line {
+        left: 0;
+      }
+    }
+    &--two {
+      &:hover ~ .navigation__line {
+        left: var(--about-link);
+      }
+    }
+    &--three {
+      &:hover ~ .navigation__line {
+        left: var(--port-link);
+      }
+    }
+    &--four {
+      &:hover ~ .navigation__line {
+        left: var(--lab-link);
+      }
+    }
+    &--five {
+      &:hover ~ .navigation__line {
+        left: var(--contact-link);
+      }
+    }
+    &--active {
+      color: $color-white;
+    }
+    &:hover, &:focus {
+      color: $color-white;
+      font-size: 25px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  &__line {
+    position: absolute;
+    left: -20vw;
+    height: 3px;
+    width: 20vw;
+    min-width: 250px;
+    margin: 0;
+    border-radius: 100px;
+    background: $color-yellow;
+    z-index: 3;
+    transition: .3s ease-in-out;
+  }
+}

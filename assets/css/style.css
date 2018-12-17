@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+:root { --home-link: 0; --about-link: 0; --port-link: 0; --lab-link: 0; --contact-link: 0; --home-image: ''; }
+
+/* -------------------------- SET UP FONT VARIABLES -------------------------- */
+@font-face { font-family: 'HKGrotesk'; src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Medium.eot") format("eot"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Medium.woff") format("woff"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Medium.woff2") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'HKGrotesk-regular'; src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Regular.eot") format("eot"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Regular.woff") format("woff"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Regular.woff2") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'HKGrotesk-bold'; src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Bold.eot") format("eot"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Bold.woff") format("woff"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Bold.woff2") format("woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'HKGrotesk-light'; src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Light.eot") format("eot"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Light.woff") format("woff"), url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Light.woff2") format("woff"); font-weight: normal; font-style: normal; }
+
+/* -------------------------- TYPOGRAPHIC SCALE https://blog.envylabs.com/responsive-typographic-scales-in-css-b9f60431d1c4 http://spencermortensen.com/articles/typographic-scale/ https://codepen.io/dangodev/pen/OOaYya http://www.modularscale.com/?18&px&1.125 -------------------------- */
+/* -------------------------- BREAK POINTS -------------------------- */
+/* Equal-column flex grid with gutter support */
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+*, *:before, *:after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body { font-family: "HKGrotesk-regular", sans-serif; color: #fff; line-height: 1.3; font-size: 15px; font-weight: normal; letter-spacing: 1px; background-color: #181818; }
+
+body.menu-active { overflow-y: hidden; overflow: hidden; }
+
+.container { max-width: 100%; padding-right: 50px; padding-left: 50px; }
+
+@media (max-width: 950px) { .container { width: auto; padding-right: 20px; padding-left: 20px; } }
+
+.main-content { position: relative; width: 100%; height: calc(100vh - 100px); background-color: #181818; }
+
+/** Headers */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { padding: 0 0 8px; font-family: "HKGrotesk", sans-serif; font-weight: bold; text-transform: uppercase; line-height: 1; }
+
+h1, .h1 { font-size: 65px; }
+
+@media (max-width: 1070px) { h1, .h1 { font-size: 50px; } }
+
+@media (max-width: 600px) { h1, .h1 { font-size: 38px; } }
+
+h2, .h2 { font-size: 50px; }
+
+@media (max-width: 1070px) { h2, .h2 { font-size: 38px; } }
+
+@media (max-width: 600px) { h2, .h2 { font-size: 29px; } }
+
+h3, .h3 { font-size: 38px; }
+
+@media (max-width: 1070px) { h3, .h3 { font-size: 29px; } }
+
+@media (max-width: 600px) { h3, .h3 { font-size: 22px; } }
+
+h4, .h4 { font-size: 29px; }
+
+@media (max-width: 1070px) { h4, .h4 { font-size: 22px; } }
+
+@media (max-width: 600px) { h4, .h4 { font-size: 15px; } }
+
+h5, .h5 { font-size: 22px; }
+
+@media (max-width: 1070px) { h5, .h5 { font-size: 15px; } }
+
+@media (max-width: 600px) { h5, .h5 { font-size: 15px; } }
+
+h6, .h6 { font-size: 15px; }
+
+@media (max-width: 1070px) { h6, .h6 { font-size: 15px; } }
+
+@media (max-width: 600px) { h6, .h6 { font-size: 14px; } }
+
+s p { margin: 0 0 27px; font-size: 1.5em; font-family: "HKGrotesk-regular", sans-serif; font-weight: normal; line-height: 1; }
+
+.font-yellow { color: #27ae60; }
+
+.font-white { color: #fff; }
+
+.font-black { color: #181818; }
+
+a { text-decoration: none; color: #fff; }
+
+.home-marquee { height: 100%; width: 100%; background-size: 0; }
+
+.home-marquee--image { background-size: contain; background-position: center; background-repeat: no-repeat; }
+
+.home-marquee__container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; height: 100%; }
+
+.navigation::-webkit-scrollbar { display: none; }
+
+.navigation { position: fixed; bottom: 0; width: 100%; background-color: #0B0B0C; overflow-x: scroll; }
+
+.navigation__container { display: -ms-flexbox; display: flex; position: relative; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: start; justify-content: flex-start; height: 100px; }
+
+.navigation__container:before { content: ''; position: absolute; top: 0; background-color: #4b4b4b; width: 100%; min-width: calc(250px * 5); height: 4px; z-index: 2; }
+
+.navigation__item { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; position: relative; -ms-flex-align: center; align-items: center; width: 20vw; min-width: 250px; font-size: 20px; background-color: #0B0B0C; color: #4b4b4b; text-transform: uppercase; transition: .3s ease-in-out; }
+
+.navigation__item--one.navigation__item--active ~ .navigation__line { left: 0; }
+
+.navigation__item--one:hover ~ .navigation__line { left: 0; }
+
+.navigation__item--two:hover ~ .navigation__line { left: var(--about-link); }
+
+.navigation__item--three:hover ~ .navigation__line { left: var(--port-link); }
+
+.navigation__item--four:hover ~ .navigation__line { left: var(--lab-link); }
+
+.navigation__item--five:hover ~ .navigation__line { left: var(--contact-link); }
+
+.navigation__item--active { color: #fff; }
+
+.navigation__item:hover, .navigation__item:focus { color: #fff; font-size: 25px; border: none; outline: none; cursor: pointer; }
+
+.navigation__line { position: absolute; left: -20vw; height: 3px; width: 20vw; min-width: 250px; margin: 0; border-radius: 100px; background: #27ae60; z-index: 3; transition: .3s ease-in-out; }
+
+/*# sourceMappingURL=style.css.map*/

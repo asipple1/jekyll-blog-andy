@@ -1,0 +1,83 @@
+title: andysipple.com
+email: your-email@example.com
+description: '' 
+baseurl:  
+url: "" 
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: pretty
+port: 4444
+
+###################################################
+#                    COLLECTIONS                  #
+###################################################
+
+collections:
+  commercial:
+    output: true
+    permalink: '/commercial/:title/'
+  residential:
+    output: true
+    permalink: /residential/:title/
+  design-center:
+    output: true
+    permalink: /design-center/:title/
+
+
+#--- Social meta
+social:
+  facebook:
+    title: 
+    description: 
+    type: 
+    img: 
+    author: 
+#--- Twitter meta
+  twitter:
+    site: 
+    title: 
+    description: 
+    img: 
+
+
+###################################################
+#                   markdown options              #
+###################################################
+
+_options:
+  content:
+    styles: /assets/css/rte.css
+    format: p h1 h2 h3 h4 h5 h6 pre address div
+    bold: true
+    numberedlist: true
+    bulletedlist: true
+    image: true
+    removeformat: true
+    link: true
+    left: has-text-left
+    center: has-text-centered
+    right: has-text-right
+    justify: has-text-justified
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - _sass
+  - .git
+  - .sass-cache
+  - assets/_js
+  - assets/_sass
+  - webpack.config.js
+  - webpack-settings.config.js
+  - postcss.config.js
+  - .bablerc

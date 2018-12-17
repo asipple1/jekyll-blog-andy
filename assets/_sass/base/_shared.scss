@@ -1,0 +1,43 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+ 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-body;
+  color: $color-white;
+  line-height: 1.3;
+  font-size: $--baseline;
+  font-weight: normal;
+  letter-spacing: 1px;
+  background-color: $color-black;
+  &.menu-active {
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+}
+.container {
+  max-width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  @include respond-to(tablet-portrait) {
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.main-content {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: $color-black;
+}

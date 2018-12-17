@@ -1,0 +1,100 @@
+/**
+* Headers
+*/
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  padding: 0 0 8px;
+  font-family: $font-heading;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+h1, .h1 {
+  font-size: $--step-up-5;
+  @include respond-to(tablet) {
+    font-size: $--step-up-4;
+  }
+  @include respond-to(smartphone) {
+    font-size: $--step-up-3;
+  }
+}
+h2, .h2 {
+  font-size: $--step-up-4;
+  @include respond-to(tablet) {
+    font-size: $--step-up-3;
+  }
+  @include respond-to(smartphone) {
+    font-size: $--step-up-2;
+  }
+}
+h3, .h3 {
+  font-size: $--step-up-3;
+  @include respond-to(tablet) {
+    font-size: $--step-up-2;
+  }
+  @include respond-to(smartphone) {
+    font-size: $--step-up-1;
+  }
+}
+h4, .h4 {
+  font-size: $--step-up-2;
+  @include respond-to(tablet) {
+    font-size: $--step-up-1;
+  }
+  @include respond-to(smartphone) {
+    font-size: $--baseline;
+  }
+}
+h5, .h5 {
+  font-size: $--step-up-1;
+  @include respond-to(tablet) {
+    font-size: $--baseline;
+  }
+  @include respond-to(smartphone) {
+    font-size: $--step-down-1;
+  }
+}
+h6, .h6 {
+  font-size: $--baseline;
+  @include respond-to(tablet) {
+    font-size: $--step-down-1;
+  }
+  @include respond-to(smartphone) {
+    font-size: $--step-down-2;
+  }
+}
+s
+
+/**
+* Paragraph
+*/
+
+p {
+  margin: 0 0 27px;
+  font-size: 1.5em;
+  font-family: $font-body;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.font-yellow {
+  color: $color-yellow;
+}
+.font-white {
+  color: $color-white;
+}
+.font-black {
+  color: $color-black;
+}

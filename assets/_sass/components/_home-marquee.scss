@@ -1,0 +1,16 @@
+.home-marquee {
+  height: 100%;
+  width: 100%;
+  background-size: 0;
+  &--image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+}

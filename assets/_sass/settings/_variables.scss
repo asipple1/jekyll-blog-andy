@@ -1,0 +1,87 @@
+:root {
+  --home-link: 0;
+  --about-link: 0;
+  --port-link: 0;
+  --lab-link: 0;
+  --contact-link: 0;
+  --home-image: '';
+}
+
+/* --------------------------
+* SET UP FONT VARIABLES
+* -------------------------- */
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Medium.eot") format('eot'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Medium.woff") format('woff'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Medium.woff2") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk-regular';
+  src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Regular.eot") format('eot'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Regular.woff") format('woff'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Regular.woff2") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk-bold';
+  src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Bold.eot") format('eot'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Bold.woff") format('woff'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Bold.woff2") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HKGrotesk-light';
+  src: url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Light.eot") format('eot'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Light.woff") format('woff'),
+  url("/assets/files/fonts/HKGrotesk/WEB/HKGrotesk-Light.woff2") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+$font-heading: 'HKGrotesk', sans-serif;
+$font-body: 'HKGrotesk-regular', sans-serif;
+
+
+/* --------------------------
+* TYPOGRAPHIC SCALE
+* https://blog.envylabs.com/responsive-typographic-scales-in-css-b9f60431d1c4
+* http://spencermortensen.com/articles/typographic-scale/
+* https://codepen.io/dangodev/pen/OOaYya
+* http://www.modularscale.com/?18&px&1.125
+* -------------------------- */
+
+// Pentatonic Scale
+$--step-up-5: 65px;
+$--step-up-4: 50px;
+$--step-up-3: 38px;
+$--step-up-2: 29px;
+$--step-up-1: 22px;
+$--baseline: 15px;
+$--step-down-1: 15px;
+$--step-down-2: 14px;
+$--step-down-3: 12px;
+$--step-down-4: 10px;
+$--step-down-5: 9px;
+
+$color-white: #fff;
+$color-black: #181818;
+$color-dark-black: #0B0B0C;
+$color-gray: #4b4b4b;
+$color-yellow: #27ae60;
+
+
+$space-horizontal-large: 30px;
+$space-horizontal-medium: 20px;
+$space-horizontal-small: 10px;
