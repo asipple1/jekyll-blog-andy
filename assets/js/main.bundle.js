@@ -103,7 +103,7 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
     getGify: function getGify() {
       var _this3 = this;
 
-      axios_default.a.get('http://api.giphy.com/v1/stickers/random?tag=' + this.gifySearchTag + '&api_key=S2yXMMc8VI8qHZNdR2PWH086Ff8fI52w&limit=1&rating=g').then(function (response) {
+      axios_default.a.get('//api.giphy.com/v1/stickers/random?tag=' + this.gifySearchTag + '&api_key=S2yXMMc8VI8qHZNdR2PWH086Ff8fI52w&limit=1&rating=g').then(function (response) {
         _this3.imageUrl = response.data.data.images.original.url;
       });
     }

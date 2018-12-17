@@ -46,7 +46,7 @@
         });
       },
       getGify() {
-        axios.get(`http://api.giphy.com/v1/stickers/random?tag=${this.gifySearchTag}&api_key=S2yXMMc8VI8qHZNdR2PWH086Ff8fI52w&limit=1&rating=g`).then(response => {
+        axios.get(`//api.giphy.com/v1/stickers/random?tag=${this.gifySearchTag}&api_key=S2yXMMc8VI8qHZNdR2PWH086Ff8fI52w&limit=1&rating=g`).then(response => {
           this.imageUrl = response.data.data.images.original.url
         });
       }
