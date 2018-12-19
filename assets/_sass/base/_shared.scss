@@ -41,3 +41,10 @@ body {
   height: calc(100vh - 100px);
   background-color: $color-black;
 }
+
+.tag {
+  border-radius: 139px;
+  padding: 1px 15px;
+  text-transform: uppercase;
+  background: $color-green;
+}

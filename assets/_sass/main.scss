@@ -1,11 +1,16 @@
 // PLugins
 @import 'plugins/plugins';
-// Settings
+
+// Settings.
 @import 'settings/reset';
 @import 'settings/variables';
 @import 'settings/mixins';
-// Base 
+
+// Base.
 @import 'base/base';
 
-// components
+// components.
 @import 'components/components';
+
+// pages.
+@import 'pages/page';

@@ -1,0 +1,24 @@
+.about {
+  height: 100%;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  &__headline {
+    color: transparent;
+    -webkit-text-stroke: 2px cyan;
+    text-shadow: 5px 10px hotpink;
+  }
+  &__tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .tag {
+      margin: 10px 10px 10px 0;
+    }
+  }
+}

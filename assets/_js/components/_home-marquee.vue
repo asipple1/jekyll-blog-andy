@@ -1,8 +1,8 @@
 <template>
   <div class="home-marquee" :style="{ backgroundImage: `url(${imageUrl})` }">
     <div class="container home-marquee__container">
-      <h1 class="h1 home-marquee__headline">Andy Sipple</h1>
-      <div class="font-yellow home-marquee__subhead">Web Developer</div>
+      <h1 class="h1 home-marquee__headline">ALOHA, I'M ANDY!</h1>
+      <div class="h5 font-green home-marquee__subhead">Web Developer</div>
     </div>
   </div>
 </template>

@@ -13,4 +13,22 @@
     justify-content: center;
     height: 100%;
   }
+  &__headline {
+    color: transparent;
+    -webkit-text-stroke: 2px cyan;
+    text-shadow: 5px 10px hotpink;
+    font-size: 50px;
+  }
+  &__headline-a {
+    font-size: 120px;
+    color: transparent;
+    -webkit-text-stroke: 2px $color-green;
+    word-break: break-all;
+  }
+  &__subhead {
+    color: transparent;
+    -webkit-text-stroke: 2px hotpink;
+    word-break: break-all;
+    font-size: 10vw;
+  }
 }
