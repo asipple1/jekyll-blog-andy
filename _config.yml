@@ -14,31 +14,25 @@ port: 4444
 ###################################################
 
 collections:
-  commercial:
-    output: true
-    permalink: '/commercial/:title/'
-  residential:
-    output: true
-    permalink: /residential/:title/
-  design-center:
-    output: true
-    permalink: /design-center/:title/
+  works:
+    output: false
 
 
-#--- Social meta
-social:
-  facebook:
-    title: 
-    description: 
-    type: 
-    img: 
-    author: 
-#--- Twitter meta
-  twitter:
-    site: 
-    title: 
-    description: 
-    img: 
+tags:
+  - drupal
+  - php
+  - javascript
+  - node
+  - vue.js
+  - twig
+  - jekyll
+  - webpack
+  - grunt
+  - pi
+  - SASS
+  - swiper.js
+  - liquid
+
 
 
 ###################################################

@@ -107,7 +107,7 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
 // CONCATENATED MODULE: ./assets/_js/components/_home-marquee.vue?vue&type=script&lang=js&
  /* harmony default export */ var components__home_marqueevue_type_script_lang_js_ = (_home_marqueevue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__(35);
+var componentNormalizer = __webpack_require__(34);
 
 // CONCATENATED MODULE: ./assets/_js/components/_home-marquee.vue
 
@@ -130,7 +130,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /* hot reload */
 if (false) {
-  var api = require("/Users/andysipple/code/andysipple.com/node_modules/vue-hot-reload-api/dist/index.js")
+  var api = require("/Users/andrews/Documents/code/andysipple.com/node_modules/vue-hot-reload-api/dist/index.js")
   api.install(require('vue'))
   if (api.compatible) {
     module.hot.accept()
@@ -170,7 +170,7 @@ function init() {
   init: init
 });
 // EXTERNAL MODULE: ./node_modules/lodash/debounce.js
-var debounce = __webpack_require__(36);
+var debounce = __webpack_require__(35);
 var debounce_default = /*#__PURE__*/__webpack_require__.n(debounce);
 
 // CONCATENATED MODULE: ./assets/_js/main.js
@@ -187,9 +187,9 @@ if ('addEventListener' in document) {
 
 function menuBar() {
   var navLinks = document.getElementsByClassName('navigation__item');
-  console.log('hi');
   Array.from(navLinks).forEach(function (link) {
     var linkBarData = link.getAttribute('data-link-var');
+    console.log(link);
     var linkPosition = link.getBoundingClientRect();
     var linkPositionLeft = linkPosition.left;
     document.documentElement.style.setProperty('--' + linkBarData, linkPositionLeft + 'px');

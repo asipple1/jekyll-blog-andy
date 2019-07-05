@@ -12,9 +12,9 @@ if ('addEventListener' in document) {
 
 function menuBar() {
   const navLinks = document.getElementsByClassName('navigation__item');
-  console.log('hi');
   Array.from(navLinks).forEach((link) => {
     const linkBarData = link.getAttribute('data-link-var');
+    console.log(link);
     const linkPosition = link.getBoundingClientRect();
     const linkPositionLeft = linkPosition.left;
     document.documentElement.style.setProperty(`--${linkBarData}`, `${linkPositionLeft}px`);

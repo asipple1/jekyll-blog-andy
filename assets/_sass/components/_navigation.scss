@@ -42,34 +42,51 @@
         left: 0;
       }
       &:hover ~ .navigation__line {
-        left: 0;
+        left: 0 !important;
       }
     }
     &--two {
       &:hover ~ .navigation__line {
-        left: var(--about-link);
+        left: var(--about-link) !important;
+      }
+      &.navigation__item--active {
+        ~ .navigation__line {
+          left: var(--about-link);
+        }
       }
     }
     &--three {
       &:hover ~ .navigation__line {
-        left: var(--port-link);
+        left: var(--port-link) !important;
+      }
+      &.navigation__item--active {
+        ~ .navigation__line {
+          left: var(--port-link);
+        }
       }
     }
     &--four {
       &:hover ~ .navigation__line {
-        left: var(--lab-link);
+        left: var(--lab-link) !important;
+      }
+      &.navigation__item--active {
+        ~ .navigation__line {
+          left: var(--lab-link);
+        }
       }
     }
     &--five {
       &:hover ~ .navigation__line {
-        left: var(--contact-link);
+        left: var(--contact-link) !important;
+      }
+      &.navigation__item--active {
+        ~ .navigation__line {
+          left: var(--contact-link);
+        }
       }
     }
     &--active {
       color: cyan;
-      ~ .navigation__line {
-        left: var(--about-link);
-      }
     }
     &:hover, &:focus {
       color: cyan;
