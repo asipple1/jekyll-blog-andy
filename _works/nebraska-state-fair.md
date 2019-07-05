@@ -18,6 +18,11 @@ tags:
   - swiper.js
   - vue.js
 high_lights:
+  - Mobile menu using vue.js and api endpoint for menu data
+  - Mobile menu tiers are dynamic based on menu item. Exmaple "Concerts"
 challenages:
+  - Sharing the weather widget data on the desktop with the mobile menu. Used vuex to share data between differnt vue.js components.
+  - Creating an api endpoint for featured concerts that showup in the mobile menu.
+  - Animation between the different tiers of the mobile menu.
 ---
 
