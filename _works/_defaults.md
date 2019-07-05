@@ -7,5 +7,7 @@ teaser_image_path:
 role:
 tags:
 high_lights:
+  -
 challenages:
+  -
 ---
