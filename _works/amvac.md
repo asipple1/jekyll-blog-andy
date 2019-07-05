@@ -6,7 +6,7 @@ description: >-
 url: 'https://www.amvac.com'
 logo_image_path: /uploads/amvac-logo.png
 teaser_image_path:
-role: Shared Lead developer role
+role: Shared Lead developer role @Swanson Russell
 tags:
   - drupal
   - javascript
