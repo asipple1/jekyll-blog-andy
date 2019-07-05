@@ -4,7 +4,7 @@ description: Help develop a multi-domain site for Gowan Company.
 url: gowanco.com
 logo_image_path: /uploads/gowan-logo-2x.png
 teaser_image_path:
-role: Backend and frontend developer
+role: Backend and frontend developer @Swanon Russell
 tags:
   - drupal
   - php
