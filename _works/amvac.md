@@ -14,6 +14,8 @@ tags:
   - SASS
   - twig
   - webpack
+  - pattern-lab
+  - mysql
 high_lights:
   - Dyanmic product filter search for mega menu and home page marquee.
   - >-
