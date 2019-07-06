@@ -6,10 +6,15 @@ permalink: /portfolio/
 
 <section class="container portfolio">
   <div class="cards">
-  {% for work in site.works %}
+  {% assign sorted_word = site.works | sort: 'display_order' %}
+  {% for work in sorted_word %}
     <div class="card">
       <div class="card__image">
         <img src="{{ work.logo_image_path }}" alt="{{ work.title }}">
+      </div>
+      <div class="card__buttons">
+        <a class="button" href="{{ work.website_url }}" target="_blank">View Website</a>
+        <a class="button" href="#" target="_blank">View Details</a>
       </div>
     </div>
   {% endfor %}

@@ -17,7 +17,7 @@
       content: '';
       position: absolute;
       top: 0;
-      background-color: hotpink;
+      background-color: #ff4444;
       width: 100%;
       min-width: calc(250px * 5);
       height: 4px;
@@ -99,7 +99,7 @@
   &__line {
     position: absolute;
     left: -20vw;
-    height: 3px;
+    height: 4px;
     width: 20vw;
     min-width: 250px;
     margin: 0;

@@ -30,11 +30,15 @@ var _home_marqueevue_type_template_id_69707c8f__staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container home-marquee__container" }, [
       _c("h1", { staticClass: "h1 home-marquee__headline" }, [
-        _vm._v("ALOHA, I'M ANDY!")
+        _vm._v("ANDY SIPPLE")
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "h5 font-green home-marquee__subhead" }, [
-        _vm._v("Web Developer")
+        _c("span", [_vm._v("We")]),
+        _vm._v("b Deve"),
+        _c("span", [_vm._v("lop")]),
+        _vm._v("er"),
+        _c("span", [_vm._v(".")])
       ])
     ])
   }

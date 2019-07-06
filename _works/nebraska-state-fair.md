@@ -9,7 +9,7 @@ description: >-
   divide up the task between teammates. Help the frontend developer where needed
   and vice-versa backend. Assisted the producers in training documentation on
   how to use the CMS for handoff to the client.
-url: 'https://statefair.org/'
+website_url: 'https://statefair.org/'
 logo_image_path: /uploads/state-fair-logo.png
 teaser_image_path:
 role: Lead Developer @Swanson Russell

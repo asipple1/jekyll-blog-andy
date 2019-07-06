@@ -4,7 +4,7 @@ title: Nebraska Shrine Bowl
 description: >-
   Website build for Nebraska Shrine Bowl to help promote the great work the
   shrine bowl does for the community.
-url: 'https://neshrinebowl.org/'
+website_url: 'https://neshrinebowl.org/'
 logo_image_path: /uploads/nsb.jpg
 teaser_image_path:
 role: Lead Developer

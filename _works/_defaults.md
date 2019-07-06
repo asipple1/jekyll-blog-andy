@@ -2,7 +2,7 @@
 display_order:
 title:
 description:
-url:
+website_url:
 logo_image_path:
 teaser_image_path:
 role:

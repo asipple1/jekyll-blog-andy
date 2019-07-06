@@ -4,7 +4,7 @@ title: Erosioncontrolspec
 description: >-
   Lead the development of Erosioncontrolspec where a user can create a custom
   word document spec sheet based on how questions are filled in the form.
-url: 'https://www.erosioncontrolspecs.com'
+website_url: 'https://www.erosioncontrolspecs.com'
 logo_image_path: /uploads/profile-logo-2x.png
 teaser_image_path:
 role: Lead Developer @Swanson Russell
