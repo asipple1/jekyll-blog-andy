@@ -1,4 +1,5 @@
 ---
+display_order: 1
 title: Nebraska State fair
 description: >-
   Website for Nebraska State fair built from the ground up. My role was the lead

@@ -1,9 +1,9 @@
 .marquee {
+  margin-bottom: 40px;
   &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 350px;
     text-align: center;
   }
   &__headline {

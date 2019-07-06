@@ -70,7 +70,7 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
   },
   mounted: function mounted() {
     this.menuLinkHover();
-    this.getGify();
+    // this.getGify();
   },
 
   methods: {
@@ -90,8 +90,8 @@ var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
           _this.getGify();
         });
         link.addEventListener("mouseout", function (e) {
-          _this.gifySearchTag = '';
-          _this.imageUrl = '';
+          _this.gifySearchTag = 'pineapple';
+          _this.getGify();
         });
       });
     },

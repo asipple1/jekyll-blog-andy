@@ -1,10 +1,11 @@
 ---
+display_order: 3
 title: Amvac
 description: >-
   Help lead up the development of Amvac chemical website. This was Swanson
   Russell and my first attempt at using pattern lab.
 url: 'https://www.amvac.com'
-logo_image_path: /uploads/amvac-logo.png
+logo_image_path: /uploads/amvac-logo-reversed.png
 teaser_image_path:
 role: Shared Lead developer role @Swanson Russell
 tags:

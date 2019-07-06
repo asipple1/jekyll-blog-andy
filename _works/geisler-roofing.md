@@ -1,4 +1,5 @@
 ---
+display_order: 5
 title: Geisler Roofing
 description: Built the website from the ground using Jekyll.
 url: 'https://geislerroofing.com'

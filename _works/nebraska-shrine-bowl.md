@@ -1,4 +1,5 @@
 ---
+display_order: 7
 title: Nebraska Shrine Bowl
 description: >-
   Website build for Nebraska Shrine Bowl to help promote the great work the

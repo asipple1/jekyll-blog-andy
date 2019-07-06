@@ -3,3 +3,17 @@ layout: web-page
 title: Portfolio
 permalink: /portfolio/
 ---
+
+{% assign sorted_works = site.works | sort: 'display_order' %}
+
+<section class="container portfolio">
+  <div class="cards">
+  {% for work in sorted_works %}
+    <div class="card">
+      <div class="card__image">
+        <img src="{{ work.logo_image_path }}" alt="{{ work.title }}">
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>

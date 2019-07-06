@@ -1,4 +1,5 @@
 ---
+display_order: 6
 title: Gowanco
 description: Help develop a multi-domain site for Gowan Company.
 url: gowanco.com

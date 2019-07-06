@@ -19,7 +19,7 @@
     },
     mounted() {
       this.menuLinkHover();
-      this.getGify();
+      // this.getGify();
     },
     methods: {
       menuLinkHover() {
@@ -36,8 +36,8 @@
             this.getGify();
           });
           link.addEventListener("mouseout", (e) => {
-            this.gifySearchTag = '';
-            this.imageUrl = '';
+            this.gifySearchTag = 'pineapple';
+            this.getGify();
           });
   
         });

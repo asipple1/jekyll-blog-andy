@@ -1,7 +1,9 @@
 .home-marquee {
   height: 100%;
   width: 100%;
-  background-size: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   &--image {
     background-size: contain;
     background-position: center;

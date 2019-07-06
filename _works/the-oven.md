@@ -1,4 +1,5 @@
 ---
+display_order: 2
 title: The Oven
 description: Built website from the ground up using Jekyll.
 url: 'https://theoven-lincoln.com/'
