@@ -6,7 +6,7 @@ description: >-
   shrine bowl does for the community.
 website_url: 'https://neshrinebowl.org/'
 logo_image_path: /uploads/nsb.jpg
-teaser_image_path:
+teaser_image_path: /uploads/nebraska-shrine.png
 role: Lead Developer
 tags:
   - javascript

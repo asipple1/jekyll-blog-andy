@@ -10,7 +10,7 @@ permalink: /portfolio/
   {% for work in sorted_word %}
     <div class="card">
       <div class="card__image">
-        <img src="{{ work.logo_image_path }}" alt="{{ work.title }}">
+        <img src="{{ work.teaser_image_path }}" alt="{{ work.title }}">
       </div>
       <div class="card__buttons">
         <a class="button" href="{{ work.website_url }}" target="_blank">View Website</a>

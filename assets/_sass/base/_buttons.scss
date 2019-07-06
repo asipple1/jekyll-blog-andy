@@ -15,12 +15,12 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 3px 2px 0px 0px cyan;
-    border: 3px solid hotpink;
+    box-shadow: 3px 2px 0px 0px $color-green;
+    border: 3px solid $color-red;
     transition: all 0.4s ease-out;
     &:hover {
-      box-shadow: 3px 2px 0px 0px hotpink;
-      border: 3px solid cyan;
+      box-shadow: 3px 2px 0px 0px $color-red;
+      border: 3px solid $color-green;
     }
   }
 }

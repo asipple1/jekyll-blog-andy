@@ -17,7 +17,7 @@
   }
   &__headline {
     color: transparent;
-    -webkit-text-stroke: 2px cyan;
+    -webkit-text-stroke: 2px $color-green;
     // text-shadow: 5px 10px hotpink;
     font-size: 50px;
   }
@@ -29,8 +29,8 @@
   }
   &__subhead {
     color: transparent;
-    -webkit-text-stroke: 2px hotpink;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;    word-break: break-all;
+    -webkit-text-stroke: 2px $color-red;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red, 0 10px 3px #000;    word-break: break-all;
     font-size: 10vw;
     span {
       animation:flicker linear infinite 2s;
@@ -47,7 +47,7 @@
     
   0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
     
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red, 0 10px 3px #000;
   }
   
   20%, 24%, 55% {        

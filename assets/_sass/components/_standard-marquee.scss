@@ -9,7 +9,7 @@
   &__headline {
     position: relative;
     color: transparent;
-    -webkit-text-stroke: 2px cyan;
+    -webkit-text-stroke: 2px $color-green;
     padding: 20px 0;
     font-size: 5vw;
     &:after {
@@ -18,7 +18,7 @@
       left: 0;
       width: 100%;
       height: 4px;
-      background-color: cyan;
+      background-color: $color-red;
       animation: bar-animation 5s infinite;
     }
     &:after {
@@ -29,18 +29,18 @@
 
 @keyframes bar-animation {
   0% {
-    box-shadow: 0px 0px 20px 0px hotpink;
+    box-shadow: 0px 0px 20px 0px $color-red;
   }
   25% {
-    box-shadow: 0px 0px 20px 2px hotpink;
+    box-shadow: 0px 0px 20px 2px $color-red;
   }
   50% {
-    box-shadow: 0px 0px 20px 3px hotpink;
+    box-shadow: 0px 0px 20px 3px $color-red;
   }
   75% {
-    box-shadow: 0px 0px 20px 2px hotpink;
+    box-shadow: 0px 0px 20px 2px $color-red;
   }
   100% {
-    box-shadow: 0px 0px 20px 0px hotpink;
+    box-shadow: 0px 0px 20px 0px $color-red;
   }
 }
