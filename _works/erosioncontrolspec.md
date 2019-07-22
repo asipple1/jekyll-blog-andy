@@ -6,7 +6,7 @@ description: >-
   word document spec sheet based on how questions are filled in the form.
 website_url: 'https://www.erosioncontrolspecs.com'
 logo_image_path: /uploads/profile-logo-2x.png
-teaser_image_path: /uploads/erosioncontrol.png
+teaser_image_path: /uploads/erosion-control-min.png
 role: Lead Developer @Swanson Russell
 tags:
   - drupal
