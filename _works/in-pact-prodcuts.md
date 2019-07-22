@@ -4,7 +4,7 @@ title: In-Pact Prodcuts
 description: Lead Developer on In-pact Products.
 website_url: 'https://inpactpoly.com/'
 logo_image_path: /uploads/inpact.png
-teaser_image_path: /uploads/shotsnapp-1563755016-413.png
+teaser_image_path: /uploads/inpact-min.png
 role: Lead Developer
 tags:
   - drupal
