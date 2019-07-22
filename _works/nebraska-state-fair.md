@@ -11,7 +11,7 @@ description: >-
   how to use the CMS for handoff to the client.
 website_url: 'https://statefair.org/'
 logo_image_path: /uploads/state-fair-logo.png
-teaser_image_path: /uploads/state-fair-logo.jpg
+teaser_image_path: /uploads/statefair.png
 role: Lead Developer @Swanson Russell
 tags:
   - drupal
