@@ -6,7 +6,7 @@ description: >-
   on how to build the frontend of the site.
 website_url: 'https://www.lesco.com'
 logo_image_path: /uploads/logo-header.png
-teaser_image_path: /uploads/lesco.png
+teaser_image_path: /uploads/lesco-min.png
 role: Lead Developer @Swanon Russell
 tags:
   - drupal
