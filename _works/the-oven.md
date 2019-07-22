@@ -4,7 +4,7 @@ title: The Oven
 description: Built website from the ground up using Jekyll.
 website_url: 'https://theoven-lincoln.com/'
 logo_image_path: /uploads/the-oven-logo.png
-teaser_image_path: /uploads/theoven.png
+teaser_image_path: /uploads/the-oven-min.png
 role: Lead Developer
 tags:
   - javascript
